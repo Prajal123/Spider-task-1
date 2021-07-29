@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spider task 1 a</title>
+    <title>Spider task 1 Hackermode</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -36,7 +36,6 @@
 </div>
 
 <div class="container1">
-    <h2></h2>
 <div class="to-do">
     <img src="sptask1.jpg" alt="" id="img">
     <ul class="todoitemlist">      
@@ -45,9 +44,52 @@
 </div>
 <div class="container2">
     <h1>A digital clock:-</h1>
-    <div id="clock"></div>
+    <div id="clock">  </div>
+    <button id="changetime1" onclick="changetime1()">Change Time</button>
+        <button id="changecolor1" onclick="changecolor1()">Change Color</button>
+</div>
+<div class="container3">
+    <h2>A analog clock:-</h2>
+    <div class="hand hour"></div>
+        <div class="hand minute"> </div>
+            <div class="hand second"></div>
+           <div class="number number1">1</div>
+           <div class="number number2">2</div>
+           <div class="number number3">3</div>
+           <div class="number number4">4</div>
+           <div class="number number5">5</div>
+           <div class="number number6">6</div>
+           <div class="number number7">7</div>
+           <div class="number number8">8</div>
+           <div class="number number9">9</div>
+           <div class="number number10">10</div>
+           <div class="number number11">11</div>
+           <div class="number number12">12</div>
+           <button id="colorbutton" onclick="ChangeColor()">Change Color</button>
+           <button id="hourbutton" onclick="Changehour()">Change hour hand size</button>
+           <button id="minutebutton" onclick="Changeminute()">Change minute hand size</button>
+           <button id="secondbutton" onclick="Changesecond()">Change second hand size</button>
+           <button id="timebutton" onclick="Changetime()">Change timing</button>
+
 </div>
 
+<button class="changeclock" onclick="changeClock()">Change clock</button>
+
+<div class="container4">
+    <h2>Today's Remaining tasks</h2>
+    <div class="todo-today">
+        <ul class="todayitemlist">
+
+        </ul>
+    </div>
+</div>
+<div class="container5">
+    <h2>The tasks uncompleted</h2>
+    <div class="todo-past">
+        <ul class="pastitemlist">
+        </ul>
+    </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>
